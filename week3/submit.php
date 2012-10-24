@@ -34,7 +34,7 @@
 			
 			// Insert into orders
 			// but oops query is not defined... yet
-			
+			$query = "insert into orders (name,email,books) values ('$name','$email','$book')";
 			
 			$result = mysql_query($query);
 			
